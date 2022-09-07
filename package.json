@@ -1,0 +1,39 @@
+{
+    "name": "rtnCrossPlatformEventBus",
+    "version": "0.0.1",
+    "description": "Send events from hybrid to native and vice-versa",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+      "js",
+      "android",
+      "ios",
+      "rtn-calculator.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "keywords": ["react-native", "ios", "android"],
+    "repository": "https://github.com/joris1995/react-native-cross-platform-event-bus",
+    "author": "Joris Dijkstra joris.dijkstra@incentro.com (https://github.com/joris1995)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joris1995/react-native-cross-platform-event-bus/issues"
+    },
+    "homepage": "https://github.com/joris1995/react-native-cross-platform-event-bus",
+    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "RTNCrossPlatformEventBusSpec",
+      "type": "modules",
+      "jsSrcsDir": "js",
+      "android": {
+        "javaPackageName": "com.rtnCrossPlatformMessageBus"
+      }
+    }
+  }
